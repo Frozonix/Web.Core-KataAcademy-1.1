@@ -39,8 +39,17 @@
                   <div class="interface__form-wrapper">
                      <form action="POST" class="interface__register-form">
                         <div class="interface__register-inputs-wrapper input">
-                           <input type="email" class="input__email-input input__register-form" placeholder="Email" />
-                           <input type="tel" class="input__phone-input input__register-form" placeholder="Phone" />
+                           <label class="input__wrapper reg-label-email">
+                              <p class="input__placeholder-email reg-placeholders">Email</p>
+                              <input type="email" class="input__email-input input__register-form" />
+                           </label>
+                           <label class="input__wrapper reg-label-phone">
+                              <p class="input__placeholder-phone reg-placeholders">Phone</p>
+                              <input type="tel" class="input__phone-input input__register-form" />
+                           </label>
+
+                           <!-- <input type="email" class="input__email-input input__register-form" placeholder="Email" />
+                           <input type="tel" class="input__phone-input input__register-form" placeholder="Phone" /> -->
                         </div>
                      </form>
                   </div>
